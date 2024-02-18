@@ -27,7 +27,7 @@ def organise_file(file_path, destination_folder):
 
 # Destination Folders
 # base_folder = os.path.expanduser("~/Downloads")
-base_folder = base_folder = os.getcwd()
+base_folder = os.getcwd()
 destination_folders = {file_type: os.path.join(base_folder, file_type) for file_type in file_types}
 destination_folders["others"] = os.path.join(base_folder, "others")
 
